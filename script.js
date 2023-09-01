@@ -7,11 +7,11 @@ submitButton.addEventListener('click', () => {
     const userInput = inputField.value.trim().toLowerCase();
 
     if (userInput === 'sesamstrasse') {
-        resultContainer.innerHTML = 'Das stimmt! 🎉👏 Du bisch die beschte!<br><br>';
+        resultContainer.innerHTML = 'Das stimmt! 🎉👏<br>Du bisch die beschte!<br><br>';
         videoContainer.innerHTML = '<video onplay="showVideoTitle()"> <source src="video.mp4" type="video/mp4"> </video> <p id="videoTitle" style="display: none;"><a href="https://www.youtube.com/watch?v=0oScoQuGLxU">MADSEN - AUF DEINEM BALKON (Live von Sebis Balkon!)</a></p>';
         videoElement = document.querySelector('video');
     } else {
-        resultContainer.innerHTML = 'Stimmt doch nid 🙄 Probiere nomol ';
+        resultContainer.innerHTML = 'Stimmt doch nid 🙄<br>Probiere nomol ';
         inputField.value = '';
     }
 });
