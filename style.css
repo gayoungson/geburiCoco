@@ -25,3 +25,9 @@ button {
     font-weight: bold;
     margin-top: 20px;
 }
+
+/* Adjust the video width as needed, ensuring it doesn't exceed the screen width */
+video {
+    max-width: 100%; /* Set the maximum width to 100% to fit within the screen width */
+    height: auto; /* Maintain the video's aspect ratio */
+}
