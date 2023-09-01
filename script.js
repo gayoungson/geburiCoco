@@ -8,7 +8,7 @@ submitButton.addEventListener('click', () => {
 
     if (userInput === 'sesamstrasse') {
         resultContainer.innerHTML = 'Das stimmt! 🎉👏<br>Du bisch die beschte!<br><br>';
-        videoContainer.innerHTML = '<video onplay="showVideoTitle()"> <source src="video.mp4" type="video/mp4"> </video> <p id="videoTitle" style="display: none;"><a href="https://www.youtube.com/watch?v=0oScoQuGLxU">MADSEN - AUF DEINEM BALKON (Live von Sebis Balkon!)</a></p>';
+        videoContainer.innerHTML = '<video width = 100% controls playsinline onplay="showVideoTitle()"> <source src="video.mp4" type="video/mp4"> </video> <p id="videoTitle" style="display: none;"><a href="https://www.youtube.com/watch?v=0oScoQuGLxU">MADSEN - AUF DEINEM BALKON (Live von Sebis Balkon!)</a></p>';
         videoElement = document.querySelector('video');
     } else {
         resultContainer.innerHTML = 'Stimmt doch nid 🙄<br>Probiere nomol ';
